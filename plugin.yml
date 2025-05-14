@@ -1,0 +1,16 @@
+name: AutoCompressor
+version: 1.0
+main: org.examplez.autocompressor.AutoCompressor
+api-version: 1.21
+author: Yqkult_ ( RamZ )
+description: A plugin that automatically compresses items based on custom rules
+commands:
+  autocompressor:
+    description: Open the AutoCompressor menu
+    usage: /autocompressor
+    aliases: [ac, compress]
+    permission: autocompressor.use
+permissions:
+  autocompressor.use:
+    description: Allows usage of the AutoCompressor plugin
+    default: true

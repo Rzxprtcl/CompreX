@@ -1,0 +1,36 @@
+# Default configuration for AutoCompressor
+# This file is created automatically on first run
+
+# Compression rules are stored here
+# format:
+# rules:
+#   rule_id:
+#     input:
+#       material: MATERIAL_NAME
+#       amount: AMOUNT_REQUIRED
+#     output:
+#       material: MATERIAL_NAME
+#       amount: AMOUNT_TO_GIVE
+
+rules:
+  COBBLESTONE_TO_STONE:
+    input:
+      material: COBBLESTONE
+      amount: 9
+    output:
+      material: STONE
+      amount: 1
+  IRON_INGOT_TO_IRON_BLOCK:
+    input:
+      material: IRON_INGOT
+      amount: 9
+    output:
+      material: IRON_BLOCK
+      amount: 1
+  GOLD_INGOT_TO_GOLD_BLOCK:
+    input:
+      material: GOLD_INGOT
+      amount: 9
+    output:
+      material: GOLD_BLOCK
+      amount: 1
